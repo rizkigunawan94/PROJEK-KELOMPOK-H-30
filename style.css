@@ -1,6 +1,10 @@
 body {
 
 }
+
+.header li {
+  float:left;
+}
 .welcome-header h1 {
   color:aquamarine;
 }
