@@ -141,6 +141,13 @@ font-weight:bold;
   width: 20%;
   
 }
+.profile p {
+  width: 80%;
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
 
 .profile-icon {
   position: relative;
