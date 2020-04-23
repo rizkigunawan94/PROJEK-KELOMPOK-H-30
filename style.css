@@ -1,3 +1,8 @@
+
+.clear {
+  clear: left;
+}
+
 html, body{
   margin: 0px;
   padding: 0px;
@@ -6,18 +11,19 @@ html, body{
   max-width: 1170px;
   width: 100%;
   padding: 0 15px;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 header {
   height: 65px;
   width: 100%;
-  /* background-color:rgb(149, 8, 230); */
+  background-color: rgba(8, 8, 8, 0.8);
   position:fixed;
+  z-index: 10;
 }
 .header-left {
   float: left;  
-  margin-top: 9px;
+  margin-top: 7px;
   margin-left:30px;
 
 }
@@ -31,14 +37,14 @@ header {
 .header-right {
   float: right;
   margin-right: -30px;
-  margin-top: 20px;
+  margin-top: 13px;
   font-size: 20px;
   color:aliceblue;
 }
 .header-right a {
   color:white;
   line-height: 20px;
-  padding: 0 10px;
+  padding: 10px 20px;
   transition: all 0.5s;
   text-decoration: none;
 }
@@ -55,7 +61,126 @@ header {
 .welcome-header a {
     padding: 12px;
     text-decoration: none;
-    background-color: white;
-    color: black;
-    border-radius: 5px;
+    color:#eee;
+    
+}
+
+
+
+.selengkapnya{
+  border:groove; 
+  transition: all 0.5s; 
+  margin-top:15px;
+}
+.menu{
+  border:transparent;  
+}
+
+.site map{
+  border:transparent;  
+}
+
+.about{
+  border:transparent;  
+}
+
+.contact{
+  border:transparent;  
+}
+
+.btn {
+  padding: 12px 24px;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+  background-color:darkgrey;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.utama {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #eceaea;
+  text-align: center;
+ 
+  
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  
+}
+
+.extra1 {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  
+}
+
+
+.heading h2 {
+font-weight:bold;
+}
+
+.profile {
+  float: left;
+  width: 20%;
+  
+}
+
+.profile-icon {
+  position: relative;
+  
+}
+
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+
+.extra2 {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-image: url('images/s.jpg');
+  background-size: cover;
+  text-align: center;
+  
+}
+
+
+
+footer {
+  background-color:rgb(59, 59, 59);
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color:#eee;
+}
+
+footer p {
+  font-size: 20px;
+  margin-bottom: 20px;
 }
