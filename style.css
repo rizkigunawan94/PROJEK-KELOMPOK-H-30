@@ -166,14 +166,14 @@ font-weight:bold;
 .profile p {
   width: 80%;
   display: inline-block;
-  margin-top: 5px;
+  margin-top: 15px;
   font-size: 15px;
   color: #b3aeb5;
 }
 
 .profile-icon {
   position: relative;
-  
+  padding: 0px 20px;
 }
 
 .zoomeffect {
