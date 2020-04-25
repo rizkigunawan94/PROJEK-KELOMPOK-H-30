@@ -1,3 +1,71 @@
+/* Untuk Tablet */
 @media all and (max-width: 1000px) {
+
+   .profile {
+    width: 50%;
+    margin-bottom: 50px;
+  }
   
+   .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+  .welcome-header {
+    font-size: 32px;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+
+  .profile {
+    width: 100%;
+  }
+
+  .ft {
+    width: 100%;
+  }  
+  
+  footer {
+    text-align: center;
+  }
+  
+  .btn {
+    width: 75%;
+    text-align: center;
+  }
+  
+
+    .menu-icon{
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 25px 0;
+    display:block;
+  }
+  
+
+ .header-right{
+   display:none;
+   width: 100%;
+ }
+  
+ 
+
+  .welcome-header h1 {
+    font-size: 44px;
+    line-height: 46px;
+  }
+  .welcome-header p {
+    font-size: 24px;
+    line-height: 30px;
+  }
 }

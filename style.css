@@ -1,4 +1,6 @@
-
+* {
+  box-sizing: border-box;
+}
 .clear {
   clear: left;
 }
@@ -34,9 +36,15 @@ header {
   float: left;
 
 }
+
+.menu-icon {
+
+  display:none;
+}
+
 .header-right {
   float: right;
-  margin-right: -30px;
+  
   margin-top: 13px;
   font-size: 20px;
   color:aliceblue;
@@ -51,20 +59,19 @@ header {
 .welcome-header {
   padding: 180px 0 100px 0;
   background-image: url('images/bocah.jpg');
-   background-size: cover;
+  background-size: cover;
   color:white;
   text-align: center;
-  height: 380px;
   
 }
+
 
 .welcome-header a {
     padding: 12px;
     text-decoration: none;
     color:#eee;
-    
+    margin-bottom: 260px;
 }
-
 
 
 .selengkapnya{
@@ -196,12 +203,15 @@ font-weight:bold;
 }
 
 .lesson:hover {
-  background-color: #63A2EB;
+  background-color: rgb(148, 146, 146);
   border-radius: 30px;
+  transition: all 0.5s; 
+  
 }
 
 .lesson-icon {
   position: relative;
+  padding-top: 35px;
 }
 
 .lesson-icon p {
@@ -211,17 +221,53 @@ font-weight:bold;
   color: white;
 }
 
-footer p {
-  text-align: center;
-  font-size: 20px;
-  margin-bottom: 20px;
+.ft-content {
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgb(59, 59, 59);
+  color: white;
 }
+
+.ft {
+  float: left;
+  width: 33%;
+
+}
+
+
+.ft-jdl {
+  position: relative;
+  padding-top: 35px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.text-ft {
+  margin-top: 15px;
+  font-size: 15px;
+  
+  
+  
+}
+
+.text-ft li{
+list-style-type: none;
+
+}
+
+.text-ft a{
+text-decoration: none;
+color: white;
+}
+
 
 footer {
   background-color:rgb(59, 59, 59);
-  padding-top: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
+  padding-top: 25px;
   color:#eee;
+  text-align: center;
+
 }
 
 
