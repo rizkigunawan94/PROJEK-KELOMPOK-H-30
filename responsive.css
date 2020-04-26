@@ -2,8 +2,8 @@
 @media all and (max-width: 1000px) {
 
    .profile {
-    width: 50%;
-    margin-bottom: 50px;
+    width: 30%;
+    margin-bottom: 30px;
   }
   
    .lesson {
@@ -45,13 +45,29 @@
   }
   
 
-    .menu-icon{
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 25px 0;
-    display:block;
-  }
+.menu-icon {
+    display: block;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+.dropdown-child {
+    display: none;
+    background-color: black;
+    min-width: 170px;
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
   
 
  .header-right{

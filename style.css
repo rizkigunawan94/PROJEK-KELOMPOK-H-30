@@ -37,14 +37,35 @@ header {
 
 }
 
-.menu-icon {
 
-  display:none;
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.dropdown-child {
+  margin-top: 13px;
+  font-size: 20px;
+  color:aliceblue;
+  float: right;
+  
+}
+
+.dropdown-child a {
+  color:white;
+  line-height: 20px;
+  padding: 10px 20px;
+  transition: all 0.5s;
+  text-decoration: none;
+    
 }
 
 .header-right {
   float: right;
-  
   margin-top: 13px;
   font-size: 20px;
   color:aliceblue;
@@ -177,32 +198,28 @@ font-weight:bold;
 }
 
 .zoomeffect {
-width:100%;
-height:100%;
-text-align:center;
-overflow:hidden;
-position:relative;
-cursor:default;
+ width:100%;
+ height:100%;
+ text-align:center;
+ overflow:hidden;
+ position:relative;
+ cursor:default;
 }
 
 .zoomeffect img {
-display:block;
-position:relative;
-cursor:pointer;
--webkit-transition:all .4s linear;
-transition:all .4s linear;
-width:100%;
+ display:block;
+ position:relative;
+ cursor:pointer;
+ -webkit-transition:all .4s linear;
+ transition:all .4s linear;
+ width:100%;
 }
 
 .zoomeffect:hover img {
--ms-transform:scale(1.2);
--webkit-transform:scale(1.2);
-transform:scale(1.2);
+ -ms-transform:scale(1.2);
+ -webkit-transform:scale(1.2);
+ transform:scale(1.2);
 }
-</style>
- <div class="zoomeffect">
-        <img src="images/man.jpg">
-    </div>
 
 .text-contents {
   width: 80%;
